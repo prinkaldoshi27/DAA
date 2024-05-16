@@ -1,4 +1,4 @@
-// Rabin-Karp algorithm in C
+
 
 #include <stdio.h>
 #include <string.h>
@@ -14,14 +14,12 @@ void rabinKarp(char pattern[], char text[], int q)
     int t = 0;
     int h = 1;
 
-    // Calculate hash value for pattern and text
     for (i = 0; i < m; i++)
     {
         p = (d * p + pattern[i]) % q;
         t = (d * t + text[i]) % q;
     }
 
-    // Find the match
     for (i = 0; i <= n - m; i++)
     {
         if (p == t)
