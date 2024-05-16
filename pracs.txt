@@ -1,0 +1,20 @@
+quick sort
+Strassen's Matrix multiplication
+Matrix chain multiplication
+LCS 
+0/1 knapsack
+Merge sort
+Selection sort
+Sum of subset
+Insertion Sort
+Dijkstra
+Activity Selection
+Floyd warshall
+Fractional knapsack
+binary Search
+Bellman ford
+Prim
+KMP
+Nqueen
+rabin 
+min max
